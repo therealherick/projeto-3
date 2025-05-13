@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #343a40;
+}
+
+.navbar {
+    background-color: #eef2f7;
+    border-bottom: 1px solid #dee2e6;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #343a40;
+}
+
+.navbar-toggler {
+    background-color: #dee2e6;
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #343a40;
+}
+
+#sobre-mim, #portfolio {
+    background-color: #f8f9fa;
+}
+
+.text-colored {
+    color: #6f42c1;
+}
+
+.nav-categorias-portfolio .nav-link.active,
+#contato button {
+    background-color: #6f42c1;
+    color: #fff;
+}
+
+.nav-categorias-portfolio .nav-link:hover {
+    color: #5a3a9c;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#sobre-mim .carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-caption {
+    background-color: rgba(52, 58, 64, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#sobre-mim img.rounded-circle {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+}
+
+#portfolio .tab-pane img {
+     height: 200px;
+     object-fit: cover;
+}
+
+
+@media (max-width: 767px) {
+    #sobre-mim .carousel-item img {
+        height: 280px;
+    }
+
+    #sobre-mim img.rounded-circle {
+        height: 150px;
+        width: 150px;
+        margin: 0 auto 15px auto;
+        display: block;
+    }
+
+    #portfolio .tab-pane img {
+        height: 150px;
+    }
+}
